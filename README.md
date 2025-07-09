@@ -30,8 +30,8 @@ StickerSmash is a fun and interactive mobile app built with **React Native** and
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/sticker-smash.git
-cd sticker-smash
+git clone https://github.com/yshnavraj/stickersmash.git
+cd stickersmash
 ````
 
 2. Install dependencies:
@@ -63,7 +63,7 @@ StickerSmash/
 
 | Image Picker                     | Add Stickers                            | Final Save                       |
 | -------------------------------- | --------------------------------------- | -------------------------------- |
-| ![Pick](assets/screens/pick.png) | ![Stickers](assets/screens/sticker.png) | ![Save](assets/screens/save.png) |
+| ![Pick](assets/images/pick.png) | ![Stickers](assets/images/sticker.png) | ![Save](assets/images/save.png) |
 
 ## 🧪 Learning Goals
 
