@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "bundleIdentifier": "com.vyshnavraj.stickersmash",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.vyshnavraj.stickersmash",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +24,11 @@
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f8c1b2d3-4e5f-6a7b-8c9d-e0f1a2b3c4d5"
+      }
     },
     "plugins": [
       "expo-router",
