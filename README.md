@@ -1,7 +1,3 @@
-Sure! Here's a **professional and well-structured `README.md`** file for the **StickerSmash** app designed with Expo and React Native.
-
----
-
 ````markdown
 # 📸 StickerSmash
 
