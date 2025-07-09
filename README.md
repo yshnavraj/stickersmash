@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+Sure! Here's a **professional and well-structured `README.md`** file for the **StickerSmash** app designed with Expo and React Native.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+````markdown
+# 📸 StickerSmash
 
-1. Install dependencies
+StickerSmash is a fun and interactive mobile app built with **React Native** and **Expo**, allowing users to pick an image, add stickers, and save the edited image to their device. It’s commonly used as a beginner-friendly project to practice core mobile development skills using Expo Go.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- Select an image from the gallery or camera
+- Add fun stickers (e.g., hats, glasses, emojis)
+- Drag, scale, and position stickers freely
+- Save the final image with stickers to the device
+- Works seamlessly on both iOS and Android
 
-   ```bash
-   npx expo start
-   ```
+## 🧰 Tech Stack
 
-In the output, you'll find options to open the app in a
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [expo-image-picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [expo-media-library](https://docs.expo.dev/versions/latest/sdk/media-library/)
+- [react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/)
+- [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📲 Demo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> Run this project in **Expo Go** on your mobile device.
 
-## Get a fresh project
+## 🛠️ Installation
 
-When you're ready, run:
+1. Clone the repo:
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/sticker-smash.git
+cd sticker-smash
+````
+
+2. Install dependencies:
+
+```bash
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Start the development server:
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Scan the QR code with the **Expo Go** app on your phone.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📂 Project Structure
 
-## Join the community
+```bash
+StickerSmash/
+├── assets/            # Images and sticker assets
+├── components/        # Reusable components like Button, Sticker, etc.
+├── App.js             # Root component
+├── package.json
+└── ...
+```
 
-Join our community of developers creating universal apps.
+## ✨ Screenshots
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| Image Picker                     | Add Stickers                            | Final Save                       |
+| -------------------------------- | --------------------------------------- | -------------------------------- |
+| ![Pick](assets/screens/pick.png) | ![Stickers](assets/screens/sticker.png) | ![Save](assets/screens/save.png) |
+
+## 🧪 Learning Goals
+
+* Understand React Native layout and components
+* Work with device APIs using Expo SDK
+* Use gesture handling for interactive elements
+* Navigate between screens with React Navigation
+* Handle permissions and file storage
+
+## 📄 License
+
+This project is for educational purposes. Feel free to fork and modify it!
+
+---
+
+Made with ❤️ using [Expo](https://expo.dev/).
